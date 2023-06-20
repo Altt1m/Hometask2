@@ -31,6 +31,14 @@
                     Console.Write(" Скільки вам років? (ще раз) ");
                     continue; // Якщо число <= 0
                 }
+                else if (ageOnEarth > 100)
+                {
+                    Console.WriteLine(" Ви хоч щось тут бачите, діду?");
+                    Thread.Sleep(2000);
+                    Console.Clear();
+                    Console.Write(" Скільки вам років? (ще раз) ");
+                    continue; // Якщо число > 100
+                }
                 break; // Якщо правильні дані
             }
             catch (Exception) // Відловлювач винятків
