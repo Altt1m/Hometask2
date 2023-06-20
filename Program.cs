@@ -15,7 +15,7 @@
     private double ageOnEarth; // Вік на Землі (у роках)
     private int earthYearInSeconds = 31557600; // Рік на Землі у секундах
 
-    private void setAgeOnEarth() // Встановлюємо вік на Землі
+    public void setAgeOnEarth() // Встановлюємо вік на Землі
     {
         Console.Write(" Скільки вам років? ");
         while (true) // Нескінченний цикл очікування правильних даних
